@@ -9,6 +9,7 @@ int main(int argc, char *argv[]){
    scanf("%d",&idade);
    
    if(idade>=18 && idade<=67){
+      
         printf("Possui tatuagem[s/n]: ");
         fflush(stdin);
         scanf("%c",&tatuagem);
