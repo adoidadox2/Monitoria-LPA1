@@ -9,6 +9,7 @@ int main(int argc, char *argv[]){
     fahrenheit=((celsius/5)*9)+32;
     
     printf("Valor convertido em Fahrenheit: %.2f\n",fahrenheit);
+    
     system("pause");
     return 0;
 }
