@@ -20,18 +20,15 @@ int main(int argc, char *argv[]){
              scanf("%d",&tempo);
              
              if(tempo>=12){
-                   printf("Voce pode doar!\n");
-                           }
+                  printf("Voce pode doar!\n");
+             }
              else if(tempo<12){
                   printf("Voce nao pode doar\n");
-                           }
              }
-        else if(tatuagem=='n'){
-             printf("Voce pode doar!\n");
-             }
-   }
-   else{
-        printf("Voce nao pode doar sangue\n");
+        }else{
+             printf("Voce pode doar sangue!\n");
+        }
+        
    }
    
     system("pause");
