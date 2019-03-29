@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+/*
+  Fazer uma função que calcula o fatorial de um número.
+*/
 int main(void){
     int numero, i, resultado = 1;
 
