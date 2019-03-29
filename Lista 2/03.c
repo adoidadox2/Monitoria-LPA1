@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // Necessário apenas se não for compilar no dev
-//#include <stdlib.h>
+#include <stdlib.h>
 
 
 /*
@@ -10,9 +10,15 @@
 
 int main(){
 	
-	int maiorNumero = -1, menorNumero = -1, numero, i; 
+	int maiorNumero, menorNumero, numero, c = 0; 
 	
-	for(i = 0; i < 10; i++){
+	printf("Informe um numero: ");
+	scanf("%d", &numero);
+
+	maiorNumero = numero;
+	menorNumero = numero;
+
+	while(c < 9){
 		printf("Informe um numero: ");
 		scanf("%d", &numero);
 		
@@ -21,6 +27,8 @@ int main(){
 		
 		if( numero < menorNumero || menorNumero == -1)
 			menorNumero = numero;	
+
+		c++;
 	}
 	
 	printf("Maior numero: %d\n", maiorNumero);
@@ -29,6 +37,6 @@ int main(){
 
 
     // Necessário apenas se não for compilar no dev
-    // system("pause");
+    system("pause");
 	return 0;
 }
