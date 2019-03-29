@@ -9,8 +9,10 @@ int main(void){
     printf("\n Digite o numero: ");
     scanf("%d", &numero);
 
-    for(i = numero; i > 1; i--){
+    i = numero;
+    while( i > 1){
         resultado *= i;
+        i--;
     }
 
     printf("\n %d! = %d\n\n", numero, resultado);
