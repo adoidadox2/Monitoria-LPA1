@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*
-  Fazer uma função que calcula o fatorial de um número.
+  Fazer um programa que calcula o fatorial de um número.
 */
 int main(void){
-    int numero, i, resultado = 1;
+    long long unsigned int resultado = 1;
+    int numero, i;
 
     printf("\n Digite o numero: ");
     scanf("%d", &numero);
@@ -15,7 +16,7 @@ int main(void){
         i--;
     }
 
-    printf("\n %d! = %d\n\n", numero, resultado);
+    printf("\n %d! = %lld\n\n", numero, resultado);
 
     system("pause");
     return 0;
