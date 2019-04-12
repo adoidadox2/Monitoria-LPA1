@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main(void){
 
     int A[5];
@@ -14,6 +15,7 @@ int main(void){
         scanf("%d", &B[x]);
     }
     printf("\n\n");
+    
     printf(" O(s) numero(s) que estao no vetor A e B simultaneamente sao/e: ");
     for(int x = 0; x < 5; x++){
         for(int y = 0; y < 8; y++){
