@@ -7,8 +7,8 @@
 // Perguntas
 
 /*
-    As funções retornam 1 ou 0
-    1 = Acerto
+    As funções retornam SCORE_QUESTION ou 0
+    SCORE_QUESTION = Acerto
     0 = Erro
 */
 int favoriteFood();
